@@ -17,6 +17,9 @@ export default  class Person extends React.Component{
                 <br/>
                 <p>Vin is: {vin}</p>
 
+                <input value={vin} className="input-el" type="text" placeholder="insert VIN"  max={5}></input>
+                <button value={vin} >Submit</button>
+
             </div>
         );
 
